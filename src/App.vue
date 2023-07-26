@@ -1,6 +1,6 @@
 <template>
   <Header v-if="$route.meta.alive" />
-  <div class="app" >
+  <div class="app" height="100%">
     <Menu msg="Welcome to Your Vue.js App" v-if="$route.meta.alive" />
     <router-view></router-view>
   </div>
